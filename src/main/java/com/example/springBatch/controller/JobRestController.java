@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.Map;
 
-// lancer un Job à travers une API Rest
+// lancer un Job à travers une API Rest, c a d le declencher une fois on appel l url
 @RestController
 public class JobRestController {
 
