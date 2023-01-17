@@ -37,7 +37,7 @@ public class JobRestController {
         return jobExecution.getStatus();
         //si le job s execute sans problme, on peut voir http://localhost:8080/startJob
         //on voie STATUS "COMPLETED"
-        //devtools nous offre un acces direct à BDD H2 : localhost:8080/h2-console
+        //devtools nous offre un acces direct à BDD H2 : localhost:8080/h2-console , jdbc:h2:mem:testdb
     }
 
     // pour consulter le calcul de total credit et debit à traver le controlleur

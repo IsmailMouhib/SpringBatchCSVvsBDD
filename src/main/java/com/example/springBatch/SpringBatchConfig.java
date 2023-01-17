@@ -32,7 +32,6 @@ import java.util.List;
 @EnableBatchProcessing
 public class SpringBatchConfig {
     // Configurer un JOB
-
     @Autowired private JobBuilderFactory jobBuilderFactory;
     @Autowired private StepBuilderFactory stepBuilderFactory;
 
